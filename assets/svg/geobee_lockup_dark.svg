@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="150" viewBox="0 0 620 150">
+  <title>GeoBee.io primary lockup — dark mode</title>
+  <desc>For print, outline the text (Sora SemiBold). Symbol is pure vector; the &#34;o&#34; of Geo is the bee cell.</desc>
+  <defs>
+    
+    <clipPath id="celld"><polygon points="44,10 76,10 104,60 76,110 44,110 16,60"></polygon></clipPath>
+  </defs>
+  <rect x="0" y="0" width="620" height="150" fill="#1C1917"></rect>
+  <text x="20" y="103" font-family="Sora, sans-serif" font-weight="600" font-size="100" letter-spacing="-3" fill="#FAF8F4">Ge</text>
+  <g transform="translate(150,18) scale(0.62)">
+    <path d="M52 12 Q41 -10 29 -21" fill="none" stroke="#FFC107" stroke-width="7" stroke-linecap="round"></path>
+    <path d="M68 12 Q79 -10 91 -21" fill="none" stroke="#FFC107" stroke-width="7" stroke-linecap="round"></path>
+    <circle cx="29" cy="-21" r="9" fill="#FAF8F4"></circle>
+    <circle cx="91" cy="-21" r="9" fill="#FAF8F4"></circle>
+    <polygon points="44,10 76,10 104,60 76,110 44,110 16,60" fill="#FFC107" stroke="#FFC107" stroke-width="12" stroke-linejoin="round"></polygon>
+    <g clip-path="url(#celld)">
+      <rect x="-4" y="34" width="128" height="15" rx="7.5" fill="#1C1917"></rect>
+      <rect x="-4" y="60" width="128" height="15" rx="7.5" fill="#1C1917"></rect>
+      <rect x="-4" y="86" width="128" height="15" rx="7.5" fill="#1C1917"></rect>
+    </g>
+  </g>
+  <text x="232" y="103" font-family="Sora, sans-serif" font-weight="600" font-size="100" letter-spacing="-3" fill="#FAF8F4">Bee</text>
+  <text x="486" y="66" font-family="&#39;Space Mono&#39;, monospace" font-weight="700" font-size="52" fill="#FFC107">.io</text>
+</svg>

@@ -1,0 +1,8 @@
+teams:
+  breakglass:
+    description: Breakglass team with full access to the organization
+    maintainers:
+      - c5haw
+    members: []
+    privacy: closed
+    role: admin # none, read, triage, write, maintain or admin
