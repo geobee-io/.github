@@ -1,0 +1,20 @@
+repos:
+  geobee-io.github.io:
+    description: GeoBee GitHub Pages site
+    visibility: public
+    has_issues: false
+    has_projects: false
+    has_wiki: false
+    allow_merge_commit: true
+    allow_squash_merge: true
+    allow_rebase_merge: true
+    collaborators:
+      admin:
+        - breakglass
+      # maintain: []
+      # triage: []
+      # push: []
+      # pull: []
+    pages:
+      branch: main
+      path: /
