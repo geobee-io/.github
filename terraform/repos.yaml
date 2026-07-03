@@ -5,9 +5,13 @@ repos:
     has_issues: false
     has_projects: false
     has_wiki: false
-    allow_merge_commit: true
+    allow_merge_commit: false
     allow_squash_merge: true
-    allow_rebase_merge: true
+    allow_rebase_merge: false
+    allow_auto_merge: true
+    allow_update_branch: true
+    delete_branch_on_merge: true
+    license_template: gpl-3.0
     collaborators:
       admin:
         - breakglass
@@ -18,3 +22,45 @@ repos:
     pages:
       branch: main
       path: /
+
+  cd:
+    description: GeoBee continuous delivery repository
+    visibility: private
+    has_issues: true
+    has_projects: false
+    has_wiki: false
+    allow_merge_commit: false
+    allow_squash_merge: true
+    allow_rebase_merge: false
+    allow_auto_merge: true
+    allow_update_branch: true
+    delete_branch_on_merge: true
+    license_template: unlicense
+    collaborators:
+      admin:
+        - breakglass
+      # maintain: []
+      # triage: []
+      # push: []
+      # pull: []
+
+  auth-server:
+    description: Authorization server for GeoBee
+    visibility: private
+    has_issues: true
+    has_projects: false
+    has_wiki: false
+    allow_merge_commit: false
+    allow_squash_merge: true
+    allow_rebase_merge: false
+    allow_auto_merge: true
+    allow_update_branch: true
+    delete_branch_on_merge: true
+    license_template: unlicense
+    collaborators:
+      admin:
+        - breakglass
+      # maintain: []
+      # triage: []
+      # push: []
+      # pull: []
